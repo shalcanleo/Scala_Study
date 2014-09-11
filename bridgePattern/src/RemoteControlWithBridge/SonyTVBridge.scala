@@ -5,7 +5,7 @@ package RemoteControlWithBridge
  */
 class SonyTVBridge extends TV{
   override def tuneChannel(channel: Int) {
-    println("Sony TV channel " + channel.toString)
+    println("Sony TV Channel " + channel.toString)
   }
 
 }

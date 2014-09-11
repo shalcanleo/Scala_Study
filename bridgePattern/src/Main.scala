@@ -22,7 +22,7 @@ object Main extends App{
   println("Now test the remote control with bridge:")
 
   println("")
-  
+
   val sonyTv = new SonyTVBridge
   val controlSony = new RemoteControlBridge(sonyTv)
   controlSony.turnOn()
